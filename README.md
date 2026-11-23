@@ -1,7 +1,6 @@
 # cadastro-produtos-thymeleaf# 08 - Thymeleaf: Cadastro de Produtos
 
 Aplicação web em **Spring Boot + Thymeleaf** para cadastrar, listar, filtrar e remover produtos.
-Segue o tutorial "Cadastro de Produtos com Thymeleaf" e inclui todos os exercícios do final do arquivo.
 
 ## O que a aplicação faz
 
@@ -73,16 +72,3 @@ src/main/resources/
 ├── static/css/style.css
 └── templates/cadastrar.html, lista.html
 ```
-
-## Executar
-
-Requisitos: Java 17+ e Maven.
-
-```bash
-mvn spring-boot:run
-```
-
-Acesse http://localhost:8080. Os dados ficam no arquivo `./data/produtos.mv.db`,
-e o console do banco em http://localhost:8080/h2-console
-(JDBC URL `jdbc:h2:file:./data/produtos`, usuário `sa`, senha vazia).
-Se a porta 8080 estiver ocupada, ajuste `server.port` em `application.properties`.
